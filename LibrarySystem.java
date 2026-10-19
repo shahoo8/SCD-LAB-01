@@ -16,7 +16,7 @@ class Book {
     }
 
     void display() {
-        System.out.println(id + " | " + title + " | "
+        System.out.println(id + " || " + title + " || "
                 + author + " | "
                 + (issued ? "Issued" : "Available"));
     }
